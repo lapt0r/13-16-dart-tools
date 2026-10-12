@@ -15,8 +15,10 @@ Built and tested on a 2016 Dart SE, 2.0L Tigershark, 6-speed manual.
 
 ## Hardware
 
-A USB ELM327 v1.5 clone with a CH340 serial chip (USB ID `1a86:7523`). It
-appears as `/dev/ttyUSB0` at 38400 baud. A 10 ft passive USB extension works.
+The **MOCATEC ELM327 USB reader** sold on Amazon, the one with an HS / MS
+switch. It reports itself as ELM327 v1.5 and uses a CH340 serial chip (USB ID
+`1a86:7523`). It appears as `/dev/ttyUSB0` at 38400 baud. Other USB ELM327
+readers should work but have not been tried. A 10 ft passive USB extension works.
 
 Your user needs to be in the `dialout` group:
 `sudo usermod -aG dialout $USER`, then log out and back in.

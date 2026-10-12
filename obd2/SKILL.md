@@ -5,7 +5,9 @@ description: Read data from a car through the USB OBD2 reader (ELM327 on /dev/tt
 
 # OBD2 reader
 
-The reader is a USB ELM327 v1.5 clone (CH340 serial chip, USB ID `1a86:7523`).
+The reader is a MOCATEC ELM327 USB cable (sold on Amazon; it has an HS / MS
+switch). It reports itself as ELM327 v1.5 and uses a CH340 serial chip, USB ID
+`1a86:7523`.
 It shows up as `/dev/ttyUSB0` (stable path:
 `/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0`) and talks 38400 baud 8N1.
 
