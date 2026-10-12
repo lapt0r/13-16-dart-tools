@@ -63,3 +63,7 @@ The tools only read. Nothing here clears codes or writes to the car.
 ## Using it as a Claude Code skill
 
 Copy the `obd2` folder to `~/.claude/skills/obd2/`.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
